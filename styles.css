@@ -1,0 +1,11 @@
+/* <ion-icon name="arrow-forward-circle-outline"></ion-icon> */
+
+
+@media (max-width: 935px){ /*O layout sem sidebar deve ser ativado quando a largura da tela for menor que 935px */
+.sidebar{
+  display: none;
+}
+}
+@media(max-width:614) {/*O layout para mobile deve ser ativado quando a largura da tela for inferior a 614px */
+/*desativar o que não precisa ser visto*/
+}
