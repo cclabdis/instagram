@@ -6,6 +6,9 @@
   display: none;
 }
 }
-@media(max-width:614) {/*O layout para mobile deve ser ativado quando a largura da tela for inferior a 614px */
+@media(max-width:614px) {/*O layout para mobile deve ser ativado quando a largura da tela for inferior a 614px */
 /*desativar o que não precisa ser visto*/
+  body{
+    background-color: rgb(216, 85, 25);
+  }
 }
