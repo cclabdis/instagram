@@ -46,3 +46,18 @@ Bônus não são obrigatórios, mas caso tenha conseguido terminar todo o projet
     - [ ]  Ter comentários nos posts, com botão de like no canto direito em cada comentário
     - [ ]  Uma caixa para digitar o comentário, utilizando a tag `input`
     - [ ]  Um botão ao lado desta caixa para **Publicar**, com cor `#B2DFFC` inicialmente e, ao passar o mouse, fique com a cor `#0095F6` com uma transição que dura `300ms`. Procure pela propriedade *transition* para fazer isso :)
+
+           {
+      {   }
+       } {   {
+    .-{ --}-- }-.
+   (   }     {   )
+   |`-.._____..-'|
+   |             ;--.
+   |            (__  \
+   |  ONLY COOL  | )  )
+   |    CODE     |/  /
+   |   ALLOWED   /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
