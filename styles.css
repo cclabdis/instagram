@@ -1,5 +1,47 @@
 /* <ion-icon name="arrow-forward-circle-outline"></ion-icon> */
+.container{
+  display: flex;
+  margin-top: 60px ;
+}
+.headline{
+  background-color: red;
+  height: 60px;
 
+  position: fixed;
+  top:0 ;
+  left: 0 ;
+
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main{
+  justify-content: column;
+  align-items: center;
+}
+.sidebar{
+  justify-content: column;
+  align-items: center;
+
+}
+
+.images{
+  display: flex;
+  justify-content: column;
+  align-items:flex-start ;
+} 
+
+.imagens-feed{
+  display: flex;
+  justify-content: column;
+  align-items: center;
+
+  position: absolute;
+  width: 614px;
+  height: 614px; 
+
+}
 
 @media (max-width: 935px){ /*O layout sem sidebar deve ser ativado quando a largura da tela for menor que 935px */
 .sidebar{
