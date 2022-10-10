@@ -1,98 +1,343 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>   
-    <meta charset="utf-8">
+
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://www.freepnglogos.com/uploads/instagram-icon-png/instagram-icon-suzem-limited-make-known-20.png"
+      type="image/x-icon"
+    />
+
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
 
-    <title>Título da página</title>
+    <title>Instagram</title>
   </head>
 
 
 
-
   <body>
-     <div class="container">
+    <div class="header">
+      <div class="logo">
+        <ion-icon name="logo-instagram"></ion-icon>
+        <div class="linha-vertical"></div>
+        <img src="./img/logo.png" />
+      </div>
+      <input type="search" placeholder="Pesquisar" />
+      <div class="icons">
+        <ion-icon name="paper-plane-outline"></ion-icon>
+        <ion-icon name="compass-outline"></ion-icon>
+        <ion-icon name="heart-outline"></ion-icon>
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+    </div>
 
-      <div class="headline">
 
-          <div class="logo">
-            aqui vai o logo
+    <div class="header-mobile">
+      <ion-icon name="logo-instagram"></ion-icon>
+      <img src="./img/logo.png" />
+      <ion-icon name="paper-plane-outline"></ion-icon>
+    </div>
 
+
+    <main>
+      <div class="conteudo-principal">
+        <ion-icon name="chevron-forward-circle"></ion-icon>
+        <div class="stories">
+          <div class="story">
+            <img class="image-story" src="./img/baby1.jpeg" />
+            <img
+              class="story-background"
+              src="./img/stories_background.jpg"
+            />
+            <p>Vovó</p>
+          </div>
+          <div class="story">
+            <img class="image-story" src="./img/baby2.jpeg" />
+            <img
+              class="story-background"
+              src="./img/stories_background.jpg"
+            />
+            <p>Arlequins</p>
+          </div>
+          <div class="story">
+            <img class="image-story" src="./img/baby nanando.jpeg" />
+            <img class="story-background" src="./img/stories_background.jpg"/>
+            <p>barked</p>
+          </div>
+          <div class="story">
+            <img
+              class="image-story"
+              src="./img/baby5.jpeg"
+            />
+            <img
+              class="story-background"
+              src="./img/stories_background.jpg"
+            />
+            <p>abracadabra</p>
+          </div>
+          <div class="story">
+            <img class="image-story" src="./img/baby5.jpeg" />
+            <img
+              class="story-background"
+              src="./img/stories_background.jpg"
+            />
+            <p>Family D.</p>
+          </div>
+          <div class="story">
+            <img class="image-story" src="./img/baby1.jpeg" />
+            <img
+              class="story-background"
+              src="./img/stories_background.jpg"
+            />
+            <p>pets.dorminhocos</p>
+          </div>
+          <div class="story">
+            <img class="image-story" src="./img/baby2.jpeg" />
+            <img
+              class="story-background"
+              src="./img/stories_background.jpg"
+            />
+            <p>papai</p>
+          </div>
+          <div class="story">
+            <img class="image-story" src="./img/babypapi.jpeg" />
+            <img
+              class="story-background"
+              src="./img/stories_background.jpg"
+            />
+            <p>dashunds puppies</p>
+          </div>
+        </div>
+
+
+        <div class="posts">
+          <div class="post">
+            <div class="post-header">
+              <div class="post-image-name">
+                <img src="./img/baby1.jpeg" />
+                <p>meowed</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <img src="./img/baby3.jpeg" />
+            <div class="interaction-icons">
+              <div>
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </div>
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+            <div class="likes">
+              <img src="./img/baby3.jpeg" />
+              <p>
+                Curtido por <span>vovo</span> e
+                <span>outras 101.523 pessoas</span>
+              </p>
+            </div>
+          </div>
+         
+
+
+
+          <div class="post">
+            <div class="post-header">
+              <div class="post-image-name">
+                <img src="./img/babypapi.jpeg" />
+                <p>mamae</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <img src="./img/baby3.jpeg" />
+            <div class="interaction-icons">
+              <div>
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </div>
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+            <div class="likes">
+              <img src="./img/babyaçai.jpeg" />
+              <p>
+                Curtido por <span>adorable_animals</span> e
+                <span>outras 99.159 pessoas</span>
+              </p>
+            </div>
           </div>
           
-          <input class="search" type="text" placeholder="Pesquisar"/>
-           
-          <div class="perfil">
-            aqui vai o icons
+
+
+          <div class="post">
+            <div class="post-header">
+              <div class="post-image-name">
+                <img src="./img/baby-profile.jpeg" />
+                <p>blendpapaya</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <img src="./img/baby4.jpeg" />
+            <div class="interaction-icons">
+              <div>
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </div>
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+            <div class="likes">
+              <img src="./img/baby-profile.jpeg" />
+              <p>
+                Curtido por <span>mamae</span> e
+                <span>outras 101.523 pessoas</span>
+              </p>
+            </div>
           </div>
 
 
-      </div>    <!--fim da headline-->
-    <div class="main">
 
-      
-      <nav class="images"> <!--stories e feed-->
-        <div class="stories">
-
+          <!-- inicio post video -->
+          <div class="post">
+            <div class="post-header">
+              <div class="post-image-name">
+                <img src="./img/baby2.jpeg" />
+                <p>animaismalvados</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <video autoplay muted>
+              <source src="./img/video.mp4" type="video/mp4" />
+              <source src="./img/video.ogv" type="video/ogg" />
+            </video>
+            <div class="interaction-icons">
+              <div>
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </div>
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+            <div class="likes">
+              <img src="./img/babypapi2.jpeg" />
+              <p>
+                Curtido por <span>papai</span> e
+                <span>outras 101.523 pessoas</span>
+              </p>
+            </div>
+          </div> <!--fim post video -->
         </div>
+      </div>
 
-        <div class="feed">
 
-          <div class="imagens-feed">
-            <img src="./img/baby1.jpeg" />
-          </div>
+      <div class="space"></div>
 
-         <div class="imagens-feed">
-          <img src="./img/baby2.jpeg" />
-         </div>
 
-         <div class="imagens-feed">
-          <img src="./img/baby3.jpeg" />
-         </div>
+      <section class="sidebar"> <!--TUDO OK-->
 
-         <div class="imagens-feed">
-          <img src="./img/baby4.jpeg" />
-         </div>
-
-          <div class="imagens-feed">
-          <img src="./img/baby5.jpeg" />
-        </div>
-          <p class="carregar">
-            Carregar mais itens
-          </p>
-
-        </div>
-
-      </nav>  <!-- FIMM stories e feed-->
-    
-      <div class="sidebar">
         <div class="profile">
-          <p>
-            blend papaya
-          </p>
+          <img src="./img/baby-profile.jpeg" />
+          <div>
+            <h1>blendpapaya</h1>
+            <p>Ble D.</p>
+          </div>
+        </div>
+
+        <div class="title-sidebar-sugestions">
+          <h2>Sugestões para você</h2>
+          <p>Ver tudo</p>
+        </div>
+
+        
+        <div class="sugestions">
+          <div class="sugestion">
+            <div class="sugestion-image">
+              <img src="./img/baby-profile.jpeg" />
+              <div>
+                <h1>happy.vibes.memes</h1>
+                <p>Segue você</p>
+              </div>
+            </div>
+            <p>seguir</p>
+          </div>
+
+
+          <div class="sugestion">
+            <div class="sugestion-image">
+              <img src="./img/babyaçai.jpeg" />
+              <div>
+                <h1>papayafaclub</h1>
+                <p>Segue você</p>
+              </div>
+            </div>
+            <p>seguir</p>
+          </div>
+
+          <div class="sugestion">
+            <div class="sugestion-image">
+              <img src="./img/babynudes.jpeg" />
+              <div>
+                <h1>papaya acess</h1>
+                <p>Novo no Instagram</p>
+              </div>
+            </div>
+            <p>seguir</p>
+          </div>
+
+
+          <div class="sugestion">
+            <div class="sugestion-image">
+              <img src="./img/baby3.jpeg" />
+              <div>   
+                <h1>adorable_animals</h1>  
+                <p>Segue você</p>  
+              </div>
+            </div>
+            <p>seguir</p>
+          </div>
+
+
+          <div class="sugestion">
+            <div class="sugestion-image">
+              <img src="./img/babypapi.jpeg"/>
+              <div>
+                <h1>smallcutedogs</h1>
+                <p>Segue você</p>
+              </div>
+            </div>
+            <p>seguir</p>
+          </div>
 
         </div>
 
-
-
-        <div class="for-you">
-          aqui vai as sugestões
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="footer">
+          <a href="https://about.instagram.com/" target="_blank">
+            Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos •
+            Localizações • Contas mais relevantes • Hashtags • Idioma
+          </a>
+          <a href="facebook.com" target="_blank">&copy; 2021 INSTAGRAM DO FACEBOOK</a>
         </div>
-      </div> <!--fim da sidebar-->
+      </section> <!--fim-->
 
-    </div>
-    
-    </div>
-   
+
+    </main>
+    <footer>
+      <ion-icon name="home"></ion-icon>
+      <ion-icon name="search-outline"></ion-icon>
+      <ion-icon name="add-circle-outline"></ion-icon>
+      <ion-icon name="heart-outline"></ion-icon>
+      <ion-icon name="person-outline"></ion-icon>
+    </footer>
   </body>
 </html>
